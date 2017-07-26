@@ -3,6 +3,15 @@ h1, h2, a {
 				Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+h1, h2 {
+	text-align: center;
+	vertical-align: middle;
+}
+
 h1 {
 	font-size: 250%;
+}
+
+.jumbotron{
+	background-color: white;
 }
