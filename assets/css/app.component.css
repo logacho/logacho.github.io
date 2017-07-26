@@ -69,15 +69,18 @@ a {
 .navbar-default .navbar-toggle:focus {
   background-color: #ff8074;
 }
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+.icon-bar {
+  color: #ffffff;
+}
+.icon-bar:hover {
+  color: #0b84d6;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #ffffff;
 }
 .navbar-default .navbar-link {
-  color: #ffffff;
+  color: #ffffff; 
 }
 .navbar-default .navbar-link:hover {
   color: #0b84d6;
@@ -97,4 +100,10 @@ a {
     color: #0b84d6;
     background-color: #ff8074;
   }
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 0.25em;
 }
