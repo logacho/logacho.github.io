@@ -8,6 +8,24 @@ h1, h2{
 	vertical-align: middle;
 }
 
-.jumbotron{
-	background-color: white;
+@keyframes rainbowText {
+    0%   {color:#FF0000;}
+    20%  {color:#FF7F00;}
+    40%  {color:#FFFF00;}
+    60%  {color:#00FF00;}
+    80% {color:#0000FF;}
+    100% {color:#4B0082;}
+}
+
+.animated{
+	animation-name: rainbowText;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 50px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
 }

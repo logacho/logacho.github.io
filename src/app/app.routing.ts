@@ -30,10 +30,10 @@ const appRoutes: Routes = [
   //    path: '**',
   //    component : PageNotFoundComponent
   // }
-  {
-     path: '**',
-     component : HomeComponent
-  }
+  // {
+  //    path: '**',
+  //    component : HomeComponent
+  // }
 ];
 
 @NgModule({
