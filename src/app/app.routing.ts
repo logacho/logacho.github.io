@@ -13,7 +13,7 @@ const appRoutes: Routes = [
   {
     path: '',
     component : HomeComponent
-  },
+  }
   // {
   //   path: 'projects',
   //   component : ProjectsComponent
